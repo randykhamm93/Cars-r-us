@@ -1,0 +1,53 @@
+/* styles.css */
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.choices__paints,
+.choices__interiors,
+.choices__wheels,
+.choices__technologies {
+  width: 36%;
+  border: 2px dashed blue;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  background-color:bisque;
+}
+
+.customOrders {
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-left: 4%;
+  background-color: white;
+}
+
+.customOrders h2 {
+  margin-left: 4%;
+}
+
+.order {
+  margin-left: 4%;
+  margin-bottom: 4%;
+}
+
+
+#placeOrder {
+  background-color: skyblue;
+  margin-left: 4%;
+}
+
+.custom-orders {
+  width: 75%;
+  background-color: skyblue;
+  border: 2px dashed blue;
+  padding: 20px;
+}
+
+#technology {
+  width: 250px;
+}
